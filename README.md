@@ -1,1 +1,1 @@
-This is my Basic website of my Portfolio
+This is my portfolio.
