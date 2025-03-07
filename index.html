@@ -3,9 +3,151 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MY Website</title>
+    <title>Thatikonda Vishwanath - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(120deg, #3498db, #8e44ad);
+        color: white;
+        text-align: center;
+      }
+      header {
+        background: rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+      }
+      h1 {
+        margin: 0;
+        font-size: 2.5em;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+      nav ul li {
+        display: inline;
+        margin: 0 15px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em;
+        transition: 0.3s;
+      }
+      nav ul li a:hover {
+        color: #f1c40f;
+      }
+      section {
+        padding: 100px 20px;
+      }
+      #projects ul {
+        list-style: none;
+        padding: 0;
+      }
+      #projects ul li {
+        background: rgba(255, 255, 255, 0.2);
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+        transition: 0.3s;
+      }
+      #projects ul li:hover {
+        background: rgba(255, 255, 255, 0.4);
+        transform: scale(1.05);
+      }
+      footer {
+        background: rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+      }
+    </style>
   </head>
   <body>
-    <b><h1>This is my profile(vishwanath Thatikonda)</h1></b>
+    <header>
+      <h1>Thatikonda Vishwanath</h1>
+      <p>Data Analyst | Problem Solver | Tech Enthusiast</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="Thatikonda-Vishwanath-DA.pdf" download>Download Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        B-Tech graduate from Guru Nanak Institute of Technology with expertise
+        in Python, MySQL, Power BI, and Data Analytics.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <a
+            href="https://github.com/vishwanath-thatikonda/Hangman-game"
+            target="_blank"
+            >Hangman Game</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/vishwanath-thatikonda/AMAZON-SALES-ANALYSIS"
+            target="_blank"
+            >Amazon Sales Analysis</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/vishwanath-thatikonda/Job-Analysis-Dashboard"
+            target="_blank"
+            >Job Analysis Dashboard</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email:
+        <a href="mailto:thatikondavishwanath@gmail.com"
+          >thatikondavishwanath@gmail.com</a
+        >
+      </p>
+      <p>
+        LinkedIn:
+        <a
+          href="https://www.linkedin.com/in/thatikondavishwanath"
+          target="_blank"
+          >LinkedIn Profile</a
+        >
+      </p>
+      <p>
+        GitHub:
+        <a href="https://github.com/vishwanath-thatikonda" target="_blank"
+          >GitHub Profile</a
+        >
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Thatikonda Vishwanath | All Rights Reserved</p>
+    </footer>
   </body>
 </html>
